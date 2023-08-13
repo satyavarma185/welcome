@@ -1,11 +1,13 @@
 import React from "react";
+import Navbar from "./components/Navbar";
+import Main from "./components/Main";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <h1>Welcome to my first react page</h1>
+    <div>
+      <Navbar />
+      <Main />
     </div>
-  );
+  )
 }
 
-export default App;
